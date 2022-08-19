@@ -1,13 +1,14 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: space-between;
     align-content: center;
@@ -27,7 +28,6 @@ a {
     align-items: center;
     justify-content: space-around;
     padding: 32px;
-    flex: 1;
 }
 
 button {
@@ -52,8 +52,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
-    flex: 1;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .info { 
@@ -62,9 +62,9 @@ button {
 }
 
 .quote {
-    flex: 1;
     background-color: #E5E7EB;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,8 @@ button {
  .footer, .bye {
     background-color: #3882F6;
     display: flex;
+    justify-content: space-around;
     flex: 1;
-    justify-content: space-between;
+    height: 50px;
+    align-items: center;
  }
