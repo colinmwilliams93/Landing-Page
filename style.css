@@ -12,7 +12,8 @@ body {
     align-items: center;
     justify-content: space-between;
     align-content: center;
-    padding: 0px 25px;
+    padding: 10px 25px;
+
 }
 
 a {
@@ -30,22 +31,14 @@ a {
     padding: 32px;
 }
 
-button {
-    text-align: center;
-    max-width: 150px;
-    border-radius: 50px;
-    background-color: #3882F6;
-    color: white;
-    border-color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 
 .information {
@@ -68,16 +61,45 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bottom {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
  .footer, .bye {
-    background-color: #3882F6;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     flex: 1;
     height: 50px;
     align-items: center;
  }
+
+ .banner {
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+    width: 900px;
+    font-size: 32px;
+    color: #E5E7EB;
+ }
+
+ button {
+    text-align: center;
+    max-width: 150px;
+    border-radius: 50px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
